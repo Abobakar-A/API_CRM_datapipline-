@@ -1,0 +1,602 @@
+[
+  {
+    "customer_id": 1,
+    "name": "Gabriella Miller",
+    "email": "whitneycampbell@example.net",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 2,
+    "name": "Alyssa Ballard",
+    "email": "nhall@example.net",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 3,
+    "name": "Alejandra Davis",
+    "email": "gmurphy@example.net",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 4,
+    "name": "Scott Peterson",
+    "email": "carrie63@example.org",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 5,
+    "name": "Kelly Richardson",
+    "email": "brandongentry@example.com",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 6,
+    "name": "Maria Charles",
+    "email": "drodgers@example.net",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 7,
+    "name": "Gail White",
+    "email": "kyle64@example.com",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 8,
+    "name": "Daniel Patel",
+    "email": "brandongeorge@example.org",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 9,
+    "name": "David Roberson",
+    "email": "teresaespinoza@example.net",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 10,
+    "name": "Tony Wells",
+    "email": "karenhart@example.org",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 11,
+    "name": "Ryan Holmes",
+    "email": "connie42@example.org",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 12,
+    "name": "James Mcmillan",
+    "email": "james90@example.com",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 13,
+    "name": "Danielle Hernandez",
+    "email": "crichardson@example.org",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 14,
+    "name": "Joseph Bryant",
+    "email": "michelle69@example.org",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 15,
+    "name": "Jessica Mccall",
+    "email": "curtis45@example.com",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 16,
+    "name": "Tracey Jarvis",
+    "email": "woodschristopher@example.org",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 17,
+    "name": "Terri Wagner",
+    "email": "smithrachel@example.com",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 18,
+    "name": "Mrs. Mercedes Robles PhD",
+    "email": "john58@example.org",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 19,
+    "name": "Lauren Munoz PhD",
+    "email": "stephanie71@example.com",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 20,
+    "name": "Jennifer Leach",
+    "email": "hsimpson@example.com",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 21,
+    "name": "Elizabeth Blackwell",
+    "email": "samantha41@example.com",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 22,
+    "name": "Zachary Nielsen",
+    "email": "lowetiffany@example.com",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 23,
+    "name": "Tonya Dawson",
+    "email": "rodriguezreginald@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 24,
+    "name": "Karina Zamora",
+    "email": "pittmandana@example.net",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 25,
+    "name": "Alec Thompson",
+    "email": "jeremydaniels@example.net",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 26,
+    "name": "Steven Reeves",
+    "email": "robert03@example.org",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 27,
+    "name": "Zachary Ruiz",
+    "email": "dbeck@example.com",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 28,
+    "name": "Robert French",
+    "email": "freemancaroline@example.net",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 29,
+    "name": "Carly Henderson",
+    "email": "smckinney@example.net",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 30,
+    "name": "Michael Baker",
+    "email": "james70@example.net",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 31,
+    "name": "Valerie Woods",
+    "email": "joseholmes@example.org",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 32,
+    "name": "Alejandro Anderson",
+    "email": "joshuagreen@example.net",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 33,
+    "name": "Jennifer Bird",
+    "email": "diazsteven@example.com",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 34,
+    "name": "Amy Scott",
+    "email": "gregoryschneider@example.net",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 35,
+    "name": "Michele Fields",
+    "email": "tlamb@example.org",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 36,
+    "name": "Michelle Harper",
+    "email": "kyle71@example.com",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 37,
+    "name": "Charles Porter",
+    "email": "avilarachel@example.com",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 38,
+    "name": "Benjamin Black",
+    "email": "kwoodard@example.org",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 39,
+    "name": "Jessica Baker",
+    "email": "melanie48@example.com",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 40,
+    "name": "Jamie Simmons",
+    "email": "cgould@example.net",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 41,
+    "name": "Edward Carlson",
+    "email": "armstrongtyler@example.org",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 42,
+    "name": "Valerie Orozco",
+    "email": "michaelreyes@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 43,
+    "name": "Todd Velazquez",
+    "email": "stephaniefarmer@example.net",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 44,
+    "name": "Victoria Oliver",
+    "email": "farmermarilyn@example.org",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 45,
+    "name": "Melissa Le",
+    "email": "kalvarado@example.net",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 46,
+    "name": "John Hall MD",
+    "email": "hoffmanlisa@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 47,
+    "name": "Patricia Smith",
+    "email": "travisrivers@example.org",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 48,
+    "name": "Bernard Bird",
+    "email": "wwilliams@example.com",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 49,
+    "name": "Andrew Daniels",
+    "email": "durhamlauren@example.net",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 50,
+    "name": "Karen Hanson",
+    "email": "johnathanjohnson@example.org",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 51,
+    "name": "Bryan Campbell",
+    "email": "qkelly@example.net",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 52,
+    "name": "Ricky Williams",
+    "email": "ffletcher@example.com",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 53,
+    "name": "Tony Robinson",
+    "email": "ajones@example.org",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 54,
+    "name": "Gregory Rodriguez MD",
+    "email": "annamay@example.net",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 55,
+    "name": "Anna Keller",
+    "email": "brownsarah@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 56,
+    "name": "Leonard Jefferson",
+    "email": "cynthia14@example.net",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 57,
+    "name": "Joshua Barrett",
+    "email": "erinpena@example.net",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 58,
+    "name": "Robert Morris",
+    "email": "nicolealvarez@example.net",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 59,
+    "name": "Holly Haynes",
+    "email": "julie50@example.org",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 60,
+    "name": "Stephen Becker",
+    "email": "changbryan@example.org",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 61,
+    "name": "Dr. Carmen Lewis",
+    "email": "earmstrong@example.net",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 62,
+    "name": "Kimberly Brown",
+    "email": "garydoyle@example.net",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 63,
+    "name": "Christopher Robles",
+    "email": "diaznathan@example.net",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 64,
+    "name": "Donna Owens",
+    "email": "tsantiago@example.net",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 65,
+    "name": "Whitney White",
+    "email": "gilbertpatricia@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 66,
+    "name": "Patty Gilmore",
+    "email": "vhill@example.org",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 67,
+    "name": "Justin Simon",
+    "email": "sampsonsamantha@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 68,
+    "name": "Marilyn Sloan",
+    "email": "ekim@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 69,
+    "name": "Lindsay Mays",
+    "email": "kmckenzie@example.org",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 70,
+    "name": "Christina Scott",
+    "email": "brittany81@example.net",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 71,
+    "name": "Sierra Jenkins",
+    "email": "edwardstein@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 72,
+    "name": "Roy Bryant",
+    "email": "stephanie88@example.com",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 73,
+    "name": "Travis Fuentes",
+    "email": "wholmes@example.com",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 74,
+    "name": "Maurice Smith",
+    "email": "robertbaker@example.net",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 75,
+    "name": "Joseph Russo",
+    "email": "fbell@example.com",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 76,
+    "name": "Sarah White",
+    "email": "goodmanheather@example.net",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 77,
+    "name": "Micheal Bray",
+    "email": "mtran@example.com",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 78,
+    "name": "Garrett Ellis",
+    "email": "david44@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 79,
+    "name": "Randall Sanchez",
+    "email": "patricia36@example.com",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 80,
+    "name": "Sara Thompson",
+    "email": "johnsonrhonda@example.net",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 81,
+    "name": "Mr. Nathan Kim DDS",
+    "email": "carol77@example.org",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 82,
+    "name": "Joseph Cruz",
+    "email": "pbrooks@example.org",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 83,
+    "name": "Dwayne Lewis",
+    "email": "alexandra67@example.com",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 84,
+    "name": "Caitlin Brown",
+    "email": "wrighttara@example.net",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 85,
+    "name": "Zachary White",
+    "email": "chelsea37@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 86,
+    "name": "Mike Cox",
+    "email": "rodriguezanne@example.org",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 87,
+    "name": "Erika Lee",
+    "email": "nathan40@example.com",
+    "region": "Ajman"
+  },
+  {
+    "customer_id": 88,
+    "name": "William Scott",
+    "email": "carloscastaneda@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 89,
+    "name": "William Krueger",
+    "email": "qmorris@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 90,
+    "name": "Laura Rowe",
+    "email": "elewis@example.com",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 91,
+    "name": "Jason Williams",
+    "email": "fsavage@example.net",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 92,
+    "name": "Jacob Williams",
+    "email": "boydjessica@example.net",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 93,
+    "name": "Catherine Cruz DVM",
+    "email": "brucewilliam@example.com",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 94,
+    "name": "Stephanie Brown",
+    "email": "mary90@example.net",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 95,
+    "name": "Brittany Erickson",
+    "email": "kgonzalez@example.com",
+    "region": "Sharjah"
+  },
+  {
+    "customer_id": 96,
+    "name": "Ernest Burns",
+    "email": "acooper@example.net",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 97,
+    "name": "Benjamin Carr",
+    "email": "christopherjensen@example.net",
+    "region": "Fujairah"
+  },
+  {
+    "customer_id": 98,
+    "name": "Rhonda Long",
+    "email": "gregory80@example.net",
+    "region": "Abu Dhabi"
+  },
+  {
+    "customer_id": 99,
+    "name": "Jill Estes",
+    "email": "rachelbennett@example.net",
+    "region": "Dubai"
+  },
+  {
+    "customer_id": 100,
+    "name": "Travis Spencer",
+    "email": "mandy62@example.com",
+    "region": "Ajman"
+  }
+]

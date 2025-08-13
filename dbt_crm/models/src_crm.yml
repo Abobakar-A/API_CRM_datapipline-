@@ -1,0 +1,61 @@
+version: 2
+
+sources:
+  - name: crm_source
+    database: "postgres"
+    schema: public
+    tables:
+      - name: customers
+        columns:
+          - name: customer_id
+            tests:
+              - unique
+              - not_null
+          - name: name
+            tests:
+              - not_null
+          - name: email
+            tests:
+              - unique
+              - not_null
+      - name: purchases
+        columns:
+          - name: purchase_id
+            tests:
+              - unique
+              - not_null
+          - name: customer_id
+            tests:
+              - not_null
+          - name: amount
+            tests:
+              - not_null
+
+models:
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: email
+        tests:
+          - not_null
+  - name: stg_purchases
+    columns:
+      - name: purchase_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+  - name: fact_customer_purchases
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+      - name: purchase_id
+        tests:
+          - unique
+          - not_null

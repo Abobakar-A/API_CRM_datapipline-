@@ -1,0 +1,88 @@
+[0m11:15:39.784474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A0A82F550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A0A82FE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A0A82ED50>]}
+
+
+============================== 11:15:39.806900 | bcf4e6d8-360e-4346-8ae3-00a3e3619c9c ==============================
+[0m11:15:39.806900 [info ] [MainThread]: Running with dbt=1.10.6
+[0m11:15:39.808475 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt init dbt_crm', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:15:39.977381 [debug] [MainThread]: Starter project path: C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m11:15:40.168334 [info ] [MainThread]: 
+Your new dbt project "dbt_crm" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:15:40.171046 [info ] [MainThread]: Setting up your profile.
+[0m11:22:15.357059 [error] [MainThread]: Encountered an error:
+
+[0m11:22:15.619863 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\init.py", line 262, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\init.py", line 179, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\init.py", line 163, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\init.py", line 129, in generate_target_from_input
+    target[key] = click.prompt(
+                  ^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\click\termui.py", line 168, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\click\termui.py", line 151, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m11:22:15.632712 [debug] [MainThread]: Command `dbt init` failed at 11:22:15.632712 after 396.06 seconds
+[0m11:22:15.634097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A094B80D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A091BD710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A0A7BF390>]}
+[0m11:22:15.634714 [debug] [MainThread]: Flushing usage events
+[0m11:22:16.637812 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:59:33.927920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002099626F750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002099626ED50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209962136D0>]}
+
+
+============================== 11:59:33.947511 | 45a97067-7d80-4d1b-8116-49bd50817feb ==============================
+[0m11:59:33.947511 [info ] [MainThread]: Running with dbt=1.10.6
+[0m11:59:33.949517 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init dbt_crm', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:59:34.069146 [debug] [MainThread]: Starter project path: C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m11:59:34.131145 [info ] [MainThread]: 
+Your new dbt project "dbt_crm" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:59:34.133146 [info ] [MainThread]: Setting up your profile.
+[0m12:07:18.968980 [info ] [MainThread]: Profile dbt_crm written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:07:18.976980 [debug] [MainThread]: Command `dbt init` succeeded at 12:07:18.975980 after 465.23 seconds
+[0m12:07:18.977978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002098E664590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209961FE6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209961FE910>]}
+[0m12:07:18.979982 [debug] [MainThread]: Flushing usage events
+[0m12:07:19.866545 [debug] [MainThread]: An error was encountered while trying to flush usage events
