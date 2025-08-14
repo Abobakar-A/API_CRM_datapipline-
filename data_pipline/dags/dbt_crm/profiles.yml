@@ -1,0 +1,11 @@
+dbt_crm:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: postgres
+      password: postgres
+      port: 5432
+      dbname: postgres
+      schema: dbt_schema

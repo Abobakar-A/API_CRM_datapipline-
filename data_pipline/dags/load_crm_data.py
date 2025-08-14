@@ -9,6 +9,7 @@ from airflow.models import Variable
 from airflow.models.dag import DAG
 from airflow.operators.python import PythonOperator
 from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
+from airflow.operators.bash import BashOperator
 
 # 1. دوال المهام
 # ----------------------------------------
@@ -122,7 +123,6 @@ def send_failure_email(**kwargs):
     except Exception as e:
         print(f"❌ Failed to send failure email alert: {e}")
         raise # Re-raise to mark the task as failed
-
 # -------------------------------------------------------------------------------------------------
 
 # 3. إعداد الـ DAG
@@ -192,6 +192,17 @@ with DAG(
             "table_name": "purchases"
         }
     )
+    
+    run_dbt_models = BashOperator(
+        task_id="run_dbt_models",
+        bash_command="dbt run --project-dir /usr/local/airflow/dags/dbt_crm --profiles-dir /usr/local/airflow/dags/dbt_crm",
+    )
+    
+    # المهمة الجديدة لتشغيل الاختبارات
+    run_dbt_tests = BashOperator(
+        task_id="run_dbt_tests",
+        bash_command="dbt test --project-dir /usr/local/airflow/dags/dbt_crm --profiles-dir /usr/local/airflow/dags/dbt_crm",
+    )
 
     # مهام الإشعارات الجديدة
     email_success_task = PythonOperator(
@@ -211,6 +222,9 @@ with DAG(
     create_customers_table >> extract_customers >> load_customers
     create_purchases_table >> extract_purchases >> load_purchases
 
+    # تشغيل dbt بعد تحميل البيانات، ثم تشغيل الاختبارات
+    [load_customers, load_purchases] >> run_dbt_models >> run_dbt_tests
+
     # إضافة مهام الإشعارات إلى نهاية الـ DAG
-    [load_customers, load_purchases] >> email_success_task
-    [load_customers, load_purchases] >> email_failure_task
+    [run_dbt_tests] >> email_success_task
+    [run_dbt_tests] >> email_failure_task
