@@ -24,7 +24,8 @@ for i in range(1, 501):
         "purchase_id": i,
         "customer_id": customer_id,
         "amount": round(random.uniform(50, 1000), 2),
-        "date": purchase_date.strftime("%Y-%m-%d")
+        "date": purchase_date.strftime("%Y-%m-%d"),
+        "product_id": random.randint(1, 100) # هذا هو السطر الذي يحل المشكلة
     })
 
 # حفظ الملفات

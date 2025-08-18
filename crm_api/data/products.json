@@ -1,0 +1,602 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "moment",
+    "category": "Electronics",
+    "price": 149.85
+  },
+  {
+    "product_id": 2,
+    "product_name": "clearly",
+    "category": "Home Appliances",
+    "price": 416.38
+  },
+  {
+    "product_id": 3,
+    "product_name": "similar",
+    "category": "Books",
+    "price": 227.43
+  },
+  {
+    "product_id": 4,
+    "product_name": "despite",
+    "category": "Home Appliances",
+    "price": 404.02
+  },
+  {
+    "product_id": 5,
+    "product_name": "day",
+    "category": "Electronics",
+    "price": 102.41
+  },
+  {
+    "product_id": 6,
+    "product_name": "manage",
+    "category": "Electronics",
+    "price": 266.91
+  },
+  {
+    "product_id": 7,
+    "product_name": "effect",
+    "category": "Home Appliances",
+    "price": 398.83
+  },
+  {
+    "product_id": 8,
+    "product_name": "music",
+    "category": "Home Appliances",
+    "price": 350.76
+  },
+  {
+    "product_id": 9,
+    "product_name": "easy",
+    "category": "Books",
+    "price": 335.39
+  },
+  {
+    "product_id": 10,
+    "product_name": "behind",
+    "category": "Clothing",
+    "price": 101.82
+  },
+  {
+    "product_id": 11,
+    "product_name": "believe",
+    "category": "Clothing",
+    "price": 58.01
+  },
+  {
+    "product_id": 12,
+    "product_name": "between",
+    "category": "Home Appliances",
+    "price": 391.77
+  },
+  {
+    "product_id": 13,
+    "product_name": "form",
+    "category": "Clothing",
+    "price": 367.46
+  },
+  {
+    "product_id": 14,
+    "product_name": "government",
+    "category": "Clothing",
+    "price": 208.51
+  },
+  {
+    "product_id": 15,
+    "product_name": "pattern",
+    "category": "Books",
+    "price": 209.19
+  },
+  {
+    "product_id": 16,
+    "product_name": "financial",
+    "category": "Electronics",
+    "price": 53.35
+  },
+  {
+    "product_id": 17,
+    "product_name": "church",
+    "category": "Clothing",
+    "price": 279.35
+  },
+  {
+    "product_id": 18,
+    "product_name": "let",
+    "category": "Clothing",
+    "price": 366.41
+  },
+  {
+    "product_id": 19,
+    "product_name": "late",
+    "category": "Electronics",
+    "price": 408.12
+  },
+  {
+    "product_id": 20,
+    "product_name": "campaign",
+    "category": "Clothing",
+    "price": 122.23
+  },
+  {
+    "product_id": 21,
+    "product_name": "impact",
+    "category": "Books",
+    "price": 488.46
+  },
+  {
+    "product_id": 22,
+    "product_name": "him",
+    "category": "Home Appliances",
+    "price": 475.51
+  },
+  {
+    "product_id": 23,
+    "product_name": "hundred",
+    "category": "Electronics",
+    "price": 193.86
+  },
+  {
+    "product_id": 24,
+    "product_name": "source",
+    "category": "Electronics",
+    "price": 158.9
+  },
+  {
+    "product_id": 25,
+    "product_name": "happen",
+    "category": "Electronics",
+    "price": 103.49
+  },
+  {
+    "product_id": 26,
+    "product_name": "however",
+    "category": "Electronics",
+    "price": 460.34
+  },
+  {
+    "product_id": 27,
+    "product_name": "rather",
+    "category": "Books",
+    "price": 63.51
+  },
+  {
+    "product_id": 28,
+    "product_name": "before",
+    "category": "Electronics",
+    "price": 58.15
+  },
+  {
+    "product_id": 29,
+    "product_name": "both",
+    "category": "Electronics",
+    "price": 150.87
+  },
+  {
+    "product_id": 30,
+    "product_name": "sit",
+    "category": "Electronics",
+    "price": 243.48
+  },
+  {
+    "product_id": 31,
+    "product_name": "yard",
+    "category": "Home Appliances",
+    "price": 441.36
+  },
+  {
+    "product_id": 32,
+    "product_name": "material",
+    "category": "Books",
+    "price": 393.9
+  },
+  {
+    "product_id": 33,
+    "product_name": "those",
+    "category": "Electronics",
+    "price": 89.64
+  },
+  {
+    "product_id": 34,
+    "product_name": "present",
+    "category": "Electronics",
+    "price": 469.85
+  },
+  {
+    "product_id": 35,
+    "product_name": "up",
+    "category": "Clothing",
+    "price": 163.27
+  },
+  {
+    "product_id": 36,
+    "product_name": "less",
+    "category": "Home Appliances",
+    "price": 355.62
+  },
+  {
+    "product_id": 37,
+    "product_name": "big",
+    "category": "Electronics",
+    "price": 390.4
+  },
+  {
+    "product_id": 38,
+    "product_name": "take",
+    "category": "Clothing",
+    "price": 23.32
+  },
+  {
+    "product_id": 39,
+    "product_name": "member",
+    "category": "Home Appliances",
+    "price": 397.05
+  },
+  {
+    "product_id": 40,
+    "product_name": "often",
+    "category": "Home Appliances",
+    "price": 439.89
+  },
+  {
+    "product_id": 41,
+    "product_name": "bed",
+    "category": "Electronics",
+    "price": 308.85
+  },
+  {
+    "product_id": 42,
+    "product_name": "more",
+    "category": "Electronics",
+    "price": 440.71
+  },
+  {
+    "product_id": 43,
+    "product_name": "pull",
+    "category": "Electronics",
+    "price": 273.79
+  },
+  {
+    "product_id": 44,
+    "product_name": "improve",
+    "category": "Clothing",
+    "price": 39.84
+  },
+  {
+    "product_id": 45,
+    "product_name": "for",
+    "category": "Books",
+    "price": 215.94
+  },
+  {
+    "product_id": 46,
+    "product_name": "culture",
+    "category": "Clothing",
+    "price": 360.74
+  },
+  {
+    "product_id": 47,
+    "product_name": "tree",
+    "category": "Books",
+    "price": 499.3
+  },
+  {
+    "product_id": 48,
+    "product_name": "man",
+    "category": "Clothing",
+    "price": 239.09
+  },
+  {
+    "product_id": 49,
+    "product_name": "many",
+    "category": "Home Appliances",
+    "price": 259.2
+  },
+  {
+    "product_id": 50,
+    "product_name": "recent",
+    "category": "Home Appliances",
+    "price": 295.15
+  },
+  {
+    "product_id": 51,
+    "product_name": "drive",
+    "category": "Clothing",
+    "price": 312.92
+  },
+  {
+    "product_id": 52,
+    "product_name": "PM",
+    "category": "Electronics",
+    "price": 76.51
+  },
+  {
+    "product_id": 53,
+    "product_name": "design",
+    "category": "Electronics",
+    "price": 462.78
+  },
+  {
+    "product_id": 54,
+    "product_name": "day",
+    "category": "Clothing",
+    "price": 336.02
+  },
+  {
+    "product_id": 55,
+    "product_name": "say",
+    "category": "Clothing",
+    "price": 301.95
+  },
+  {
+    "product_id": 56,
+    "product_name": "arrive",
+    "category": "Home Appliances",
+    "price": 77.98
+  },
+  {
+    "product_id": 57,
+    "product_name": "current",
+    "category": "Clothing",
+    "price": 377.51
+  },
+  {
+    "product_id": 58,
+    "product_name": "join",
+    "category": "Books",
+    "price": 360.78
+  },
+  {
+    "product_id": 59,
+    "product_name": "data",
+    "category": "Clothing",
+    "price": 27.97
+  },
+  {
+    "product_id": 60,
+    "product_name": "positive",
+    "category": "Clothing",
+    "price": 142.82
+  },
+  {
+    "product_id": 61,
+    "product_name": "where",
+    "category": "Clothing",
+    "price": 423.38
+  },
+  {
+    "product_id": 62,
+    "product_name": "feel",
+    "category": "Books",
+    "price": 33.53
+  },
+  {
+    "product_id": 63,
+    "product_name": "dream",
+    "category": "Home Appliances",
+    "price": 413.0
+  },
+  {
+    "product_id": 64,
+    "product_name": "by",
+    "category": "Books",
+    "price": 127.82
+  },
+  {
+    "product_id": 65,
+    "product_name": "believe",
+    "category": "Clothing",
+    "price": 339.7
+  },
+  {
+    "product_id": 66,
+    "product_name": "never",
+    "category": "Home Appliances",
+    "price": 409.46
+  },
+  {
+    "product_id": 67,
+    "product_name": "who",
+    "category": "Home Appliances",
+    "price": 278.32
+  },
+  {
+    "product_id": 68,
+    "product_name": "sit",
+    "category": "Clothing",
+    "price": 440.34
+  },
+  {
+    "product_id": 69,
+    "product_name": "Congress",
+    "category": "Clothing",
+    "price": 328.05
+  },
+  {
+    "product_id": 70,
+    "product_name": "start",
+    "category": "Home Appliances",
+    "price": 174.3
+  },
+  {
+    "product_id": 71,
+    "product_name": "according",
+    "category": "Home Appliances",
+    "price": 429.93
+  },
+  {
+    "product_id": 72,
+    "product_name": "heavy",
+    "category": "Electronics",
+    "price": 50.24
+  },
+  {
+    "product_id": 73,
+    "product_name": "approach",
+    "category": "Home Appliances",
+    "price": 466.38
+  },
+  {
+    "product_id": 74,
+    "product_name": "say",
+    "category": "Clothing",
+    "price": 71.32
+  },
+  {
+    "product_id": 75,
+    "product_name": "agreement",
+    "category": "Electronics",
+    "price": 497.86
+  },
+  {
+    "product_id": 76,
+    "product_name": "enter",
+    "category": "Home Appliances",
+    "price": 41.76
+  },
+  {
+    "product_id": 77,
+    "product_name": "run",
+    "category": "Electronics",
+    "price": 57.49
+  },
+  {
+    "product_id": 78,
+    "product_name": "surface",
+    "category": "Home Appliances",
+    "price": 117.13
+  },
+  {
+    "product_id": 79,
+    "product_name": "coach",
+    "category": "Clothing",
+    "price": 493.8
+  },
+  {
+    "product_id": 80,
+    "product_name": "fine",
+    "category": "Clothing",
+    "price": 115.77
+  },
+  {
+    "product_id": 81,
+    "product_name": "capital",
+    "category": "Books",
+    "price": 272.09
+  },
+  {
+    "product_id": 82,
+    "product_name": "race",
+    "category": "Home Appliances",
+    "price": 213.93
+  },
+  {
+    "product_id": 83,
+    "product_name": "clear",
+    "category": "Home Appliances",
+    "price": 341.28
+  },
+  {
+    "product_id": 84,
+    "product_name": "again",
+    "category": "Electronics",
+    "price": 249.0
+  },
+  {
+    "product_id": 85,
+    "product_name": "explain",
+    "category": "Clothing",
+    "price": 40.85
+  },
+  {
+    "product_id": 86,
+    "product_name": "change",
+    "category": "Clothing",
+    "price": 408.55
+  },
+  {
+    "product_id": 87,
+    "product_name": "major",
+    "category": "Clothing",
+    "price": 15.97
+  },
+  {
+    "product_id": 88,
+    "product_name": "politics",
+    "category": "Books",
+    "price": 201.33
+  },
+  {
+    "product_id": 89,
+    "product_name": "seek",
+    "category": "Electronics",
+    "price": 478.32
+  },
+  {
+    "product_id": 90,
+    "product_name": "majority",
+    "category": "Home Appliances",
+    "price": 309.42
+  },
+  {
+    "product_id": 91,
+    "product_name": "energy",
+    "category": "Home Appliances",
+    "price": 203.78
+  },
+  {
+    "product_id": 92,
+    "product_name": "might",
+    "category": "Clothing",
+    "price": 411.22
+  },
+  {
+    "product_id": 93,
+    "product_name": "her",
+    "category": "Electronics",
+    "price": 197.67
+  },
+  {
+    "product_id": 94,
+    "product_name": "certainly",
+    "category": "Home Appliances",
+    "price": 325.66
+  },
+  {
+    "product_id": 95,
+    "product_name": "human",
+    "category": "Clothing",
+    "price": 451.88
+  },
+  {
+    "product_id": 96,
+    "product_name": "song",
+    "category": "Home Appliances",
+    "price": 226.08
+  },
+  {
+    "product_id": 97,
+    "product_name": "image",
+    "category": "Clothing",
+    "price": 82.66
+  },
+  {
+    "product_id": 98,
+    "product_name": "candidate",
+    "category": "Home Appliances",
+    "price": 249.52
+  },
+  {
+    "product_id": 99,
+    "product_name": "organization",
+    "category": "Books",
+    "price": 148.46
+  },
+  {
+    "product_id": 100,
+    "product_name": "so",
+    "category": "Home Appliances",
+    "price": 258.2
+  }
+]
