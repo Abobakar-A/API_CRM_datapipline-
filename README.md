@@ -15,8 +15,10 @@ This project simulates a production-grade CRM data pipeline using Python, FastAP
 ## 📁 Project Structure
 API_CRM_datapipline-/
 ├── crm_api/                # FastAPI application
+├── dags/                   # Airflow DAGs
+│   ├── dbt_crm/            # dbt models and configurations
+│   └── load_crm_data.py    # Airflow DAG file
 ├── data_pipeline/          # Data generation and ingestion scripts
-├── dbt_crm/                # dbt models and configurations
 ├── logs/                   # Runtime logs and error tracking
 └── README.md               # Project documentation
 
