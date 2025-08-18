@@ -30,6 +30,15 @@ sources:
           - name: amount
             tests:
               - not_null
+      - name: products  # تم إضافة هذا الجزء
+        columns:
+          - name: product_id
+            tests:
+              - unique
+              - not_null
+          - name: product_name
+            tests:
+              - not_null
 
 models:
   - name: stg_customers
@@ -48,6 +57,15 @@ models:
           - unique
           - not_null
       - name: customer_id
+        tests:
+          - not_null
+  - name: stg_products # يجب إضافة هذا النموذج
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+      - name: product_name
         tests:
           - not_null
   - name: fact_customer_purchases

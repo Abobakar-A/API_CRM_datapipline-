@@ -2,5 +2,6 @@ SELECT
     purchase_id,
     customer_id,
     amount,
-    date
+    date,
+    product_id 
 FROM {{ source('crm_source', 'purchases') }}
